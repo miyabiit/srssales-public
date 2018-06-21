@@ -1,0 +1,236 @@
+* { box-sizing:border-box; }
+html { overflow-y:scroll; }
+body{width:100%;margin:0;padding:0;text-align:center;font-size:14px;line-height:1.5;color:#464646;background:#f0f0f0;font-family:'Century Gothic',Questrial,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif}
+ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, h7, form, p, figure { margin:0; padding:0; }
+img { border:0; }
+li { list-style-type:none; }
+a {overflow:hidden; -webkit-transition:.2s linear; -moz-transition:.2s linear; -o-transition:.2s linear; transition:.2s linear;text-decoration:none; outline:none}
+a:link,a:visited{ color:#464646 }
+a img {-webkit-transition:.2s linear; -moz-transition:.2s linear;-o-transition:.2s linear;transition:.2s linear; }
+a:hover img { opacity:0.75; }
+img { max-width:100%; height:auto; }
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+* html .clearfix { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
+
+body {min-width:940px}
+.content { position:relative; width:940px; margin:auto; text-align:left}
+.float_l { float:left; }
+.float_r { float:right; }
+.flex {display:flex;align-items:center;}
+.table{display:table;width:100%}
+.row{display:table-row}
+.cell{display:table-cell}
+.inline{display:inline-block}
+.text_c{text-align:center}
+.text_r{text-align:right}
+.text_l{text-align:left}
+.mdl{vertical-align:middle}
+.bold { font-weight:bold; }
+.big { font-size:120%; }
+.sml { font-size:88%; }
+.xs { font-size:14px}
+.num{font-family: 'BenchNine', sans-serif; line-height:1}
+.btn, a.btn{border:0; color:#FFF; font-size:22px; padding:10px; text-align:center}.btn:hover{cursor:pointer}
+.btn.btn_s{font-size:16px; padding:5px 10px}
+.pad_0{padding:0}
+.mgn_btm20{margin-bottom:20px}.mgn_top20{margin-top:20px}
+.mgn_btm30{margin-bottom:30px}.mgn_top30{margin-top:30px}
+.mgn_btm40{margin-bottom:40px}.mgn_top40{margin-top:40px}
+
+.w50{width:50%} .w33, .w33_100{width:33.3333%} .w25, .w25_100{width:25%} .w75{width:75%}
+.w75, .w50, .w33, .w33_100, .w25, .w25_100{margin:10px 0}
+
+figure {margin:0 10px; text-align:center} figcaption{text-align:left}
+
+#head_info{background:#00626e;padding:10px 0;color:#FFF}
+.tel_info{margin-left: auto; order: 2;}
+.tel{font-size:32px}
+.freedial{height:24px; margin:0 5px}
+
+header {position:relative; z-index:1000}
+
+.disp_f{display:block; width:100%; height:100%; font-family:'Century Gothic', 'Questrial', sans-serif; font-weight:bold; letter-spacing:0.05em;}
+.strong_f{font-family:'Century Gothic', 'Questrial', sans-serif; font-weight:bold; letter-spacing:0.05em;}
+
+.product_list_sign{margin-right:5px; font-size:12px; padding:2px; vertical-align:middle; min-width:30px; text-align:center; float:right; display:inline-block}
+.unit {background:#60ba4e} .unit_t{color:#60ba4e} .unit_s{background:#b3d465}
+.atch {background:#f5b32b} .atch_t{color:#f5b32b} .atch_s{background:#cc9900}
+.lift {background:#5f4b8b} .lift_t{color:#5f4b8b} .lift_s{background:#9966cc}
+.srsi {background:#4ecac9} .srsi_t{color:#4ecac9}
+.green{background:#60ba4e; color:#FFF}
+.gray{background:#666; color:#FFF}
+.orange{background:#ef510b; color:#FFF}
+.blue{background:#0b76ef; color:#FFF}
+.red{background:red; color:#FFF}.red_t{color:red}
+.srsd{background:#00626e; color:#FFF}
+.shadow{text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1)}
+
+
+/**--SUBMENU--**/
+#sub_menu { padding:5px 0 }
+#sub_menu li {float:left; width:180px; height:50px; line-height:50px; }
+#sub_menu a { font-size:14px; color:#FFF; text-decoration:none}
+#sub_menu a:hover, #sub_menu a.active{background:rgba(0,0,0,.3)}
+#sub_menu #back{width:200px;margin-right:20px;background:#fff;position:relative;text-align:center}
+#sub_menu #back:after{content:"";position:absolute;top:0;right:-20px;width:0;height:0;margin:auto;border-style:solid;border-width:25px 0 25px 20px;border-color:transparent transparent transparent #fff}
+#sub_menu #back a{color:#464646}
+#sub_menu #back a:hover{background:none; color:#999}
+
+
+/**--BREADCRUMB--**/
+#breadcrumb {padding:10px 0px; box-shadow: 0 3px 10px #dedede;}
+.breadcrumb li{float:left; margin-right:5px; font-size:14px}
+.breadcrumb li a{color:#464646; text-decoration:none}
+
+
+/**--NEWS / INFORMATION- / GUIDE / CONTACT-**/
+#news, #info, #guide, #contact{padding-bottom:30px; margin:20px 0 10px; box-shadow: 0 3px 10px #dedede}
+#news h2, #info h2{font-size:30px; padding-bottom:10px}
+#news-list{background:#FFF; padding:20px;line-height:1.25}
+#news-list li{padding:5px 0; font-size:14px}
+#news-list a{text-decoration:underline}
+
+#information-banners li{display:inline-block; width:33.3333%}
+.info_banner{background-position:50%; background-size:cover; display:block; margin:0 10px; padding:100px 0; opacity:1}
+.info_banner span{color:#FFF; font-size:24px; background:rgba(0,0,0,.3)}
+#info_banner_1{background-image:url(../images/info1.jpg)}
+#info_banner_2{background-image:url(../images/info2.png)}
+#info_banner_3{background-image:url(../images/info3.png)}
+.info_banner:hover{text-decoration:none; opacity:.9}
+#guide h2{font-size:30px; padding-bottom:10px}
+#unit-guide h3{color:#60ba4e} #unit-guide a{background:#60ba4e}
+#atch-guide h3{color:#f5b32b} #atch-guide a{background:#f5b32b}
+#lift-guide h3{color:#5f4b8b} #lift-guide a{background:#5f4b8b}
+.guide{width:33.333%; float:left}
+.guidance{background:#fff; margin:10px;padding:20px; font-size:20px}
+.guide_title{text-align:center; margin:10px auto 20px}
+.guidance p{line-height:1.5em; font-size:14px; height:80px}
+.guidance a{text-align:center; display:block; margin:20px auto; width:75%; padding:10px 0; color:#FFF}
+#contact h2{font-size:30px; padding-bottom:10px}
+#contact-box{background:#FFF; padding:40px;line-height:1.25}
+#contact-text{line-height:1.75em}
+#contact-tel{color:#00626e}
+
+
+/**--FOOTER--**/
+#footer .content{margin-top:40px}
+footer {padding:20px 0; width:100%}
+#links{font-size:12px;}
+#links br, #copy br{display:none}
+#links a{color:#FFF}
+#copy { padding:7px 0 10px; color:#FFF; line-height:1.5em}
+#copy span { font-size:28px; vertical-align:-5px; }
+#company-info{font-size:10px;margin-left: auto; order: 2;}
+#company{line-height:1.5em}
+#company-name{font-size:24px;display:block;line-height:1.5em}
+#company img{margin-right:10px}
+#pagetop { margin:0; position:fixed; right:15px; bottom:15px; cursor:pointer; z-index:1; padding:5px 10px }
+
+@media (min-width: 701px) {
+.no-pc { display:none; }
+
+
+/**--HEADER--**/
+header { }
+header nav { }
+header h1 { margin:0 0 15px -60px; z-index:200; }
+header h1 img { max-width:440px; }
+header h2 { margin:0 20px; line-height:1; }
+#nav_menu { margin-top:20px; }
+#nav_menu li {float:left; width:180px; height:60px; line-height:60px; }
+#nav_menu #logo{width:200px;margin-right:20px;background:url(../images/home.png) #fff;text-indent:-9999px; transition:none}
+#nav_menu a {color:#FFF; font-size:14px; text-decoration:none; display:block}
+#nav_menu a:hover{background:rgba(0,0,0,.3)}
+#nav_menu #logo a:hover{background:rgba(255,255,255,.5)}
+
+/**--KEYWORD SEARCH BOX--**/
+#keyword-search-box{background:#00626e;padding:40px 0}
+#keyword-search-box div{width:20%; margin:0 2%; color:#FFF; font-size:24px}
+#keyword-search-box input{width:50%; font-size:24px; border:0}
+#keyword-search-box button{width:20%; margin:0 2%; background:#008ea1; color:#FFF; font-size:24px; border:0}
+
+}
+@media (max-width: 700px) {
+.no-sp { display:none; }
+.content { width:100%; padding:10px; }
+body { min-width:320px; }
+#sp-logo{margin:6px;vertical-align:bottom}
+.w75, w50, .w33_100, .w25_100{width:100%} .w33, .w25{width:50%}
+
+
+/**--HEADER--**/
+#head { width:100%; background:#fff; }
+#head .content { padding:0; }
+header { position:fixed; width:54px; height:54px; top:5px; right:5px; }
+header nav { display:none; position:fixed; width:100%; height:100%; top:0; left:0; }
+
+
+/**--SP MENU--**/
+#btn_menu { position:fixed; top:5px; right:5px; width:54px; height:54px; z-index:1001; background:#00626e; border-radius:50%; }
+#btn_menu a,
+#btn_menu a .box span { transition:all .4s; }
+#btn_menu a { display:block; width:100%; height:100%; }
+#btn_menu a .box { position:relative; display:block; width:28px; height:24px; top:16px; left:13px;  }
+#btn_menu a .box span { display:inline-block; position:absolute; left:0; width:100%; height:3px; background-color:#FFF; border-radius:4px; }
+#btn_menu a .box span:nth-of-type(1) { top:0; }
+#btn_menu a .box span:nth-of-type(2) { top:10px; }
+#btn_menu a .box span:nth-of-type(3) { bottom:0; }
+#btn_menu a.active .box span:nth-of-type(1) { -webkit-transform: translateY(10px) rotate(-45deg); transform: translateY(10px) rotate(-45deg); }
+#btn_menu a.active .box span:nth-of-type(2) {left: 50%; opacity: 0; -webkit-animation: active-menu-bar02 .8s forwards; animation: active-menu-bar02 .8s forwards; }
+#btn_menu a.active .box span:nth-of-type(3) { -webkit-transform: translateY(-11px) rotate(45deg); transform: translateY(-11px) rotate(45deg); }
+
+#nav_menu { position:fixed; width:100%; height:100%; background:#f0f0f0; text-align:center; }
+#nav_menu a {padding:3px; color:#FFF; font-size:18px; text-decoration:none; display:block}
+#nav_menu #logo{background:url(../images/home_sp.png) #fff center no-repeat;text-indent:-9999px; transition:none; height:62px}
+#nav_menu .content{background:#00626e; color:#FFF; padding:10px} 
+#nav_menu .content .flex, 
+#nav_menu .content .cell, 
+#nav_menu .content .tel{display:block; text-align:center}
+
+
+/**--SUBMENU--**/
+#sub_title{display:block; color:#FFF; font-size:18px;}
+#sub_menu li {float:left; width:25%; height:25px; line-height:25px}
+#sub_menu li a{font-size:.75em}
+
+
+/**--BREADCRUMB--**/
+#breadcrumb,#breadcrumb .content {padding:5px}
+.breadcrumb li{font-size:12px}
+
+
+form.flex{display:block;padding:5px 10px}
+
+
+/**--KEYWORD SEARCH BOX--**/
+#keyword-search-box{background:#00626e;padding:20px 10px}
+#keyword-search-box div{width:45%; color:#FFF; font-size:18px; display:inline-block}
+#keyword-search-box input{width:50%; font-size:24px; border:0; display:inline-block}
+#keyword-search-box button{display:block; width:100%; background:#008ea1; color:#FFF; font-size:24px; border:0; margin-top:10px}
+
+
+/**--GUIDE / NEWS / INFORMATION / CONTAXT--**/
+#guide h2, #news h2, #info h2, #contact h2{font-size:24px;padding:10px 0 20px}
+.guide{width:100%; float:none}
+.guidance{margin:10px 0}
+.guidance p{height:auto}
+#news-list span.date{display:block}
+#information-banners.flex{display:block}
+#information-banners li{display:block; width:100%; margin:10px 0}
+.info_banner{margin:0}
+#contact-tel{margin-top:20px}
+#contact-tel.text_r{text-align:left}
+#contact-tel .tel{display:block}
+
+
+/**--FOOTER--**/
+footer.flex{display:block}
+#links br, #copy br{display:block}
+#company-info{margin-bottom:20px}
+#company{line-height:1.5em}#company-name{font-size:20px;display:block; line-height:1.5em}
+#company img{margin-right:10px}
+#pagetop { right:0; bottom:0}
+
+}

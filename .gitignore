@@ -1,0 +1,5 @@
+# srs public folder
+*.php
+license.txt
+readme.html
+wp-*
