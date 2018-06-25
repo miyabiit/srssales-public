@@ -1,43 +1,3 @@
-python3.6 statichtml-maker.py about.html 
-python3.6 statichtml-maker.py office.html 
-python3.6 statichtml-maker.py bt-beginner.html 
-python3.6 statichtml-maker.py bt-contact.html 
-python3.6 statichtml-maker.py bt-event.html 
-python3.6 statichtml-maker.py bt-guide-top.html 
-python3.6 statichtml-maker.py bt-info-top.html 
-python3.6 statichtml-maker.py bt-law.html 
-python3.6 statichtml-maker.py bt-purchase-flow.html 
-python3.6 statichtml-maker.py bt-select.html 
-python3.6 statichtml-maker.py bt-trouble-support.html 
-python3.6 statichtml-maker.py construction-flow.html 
-python3.6 statichtml-maker.py contact.html 
-python3.6 statichtml-maker.py corporate.html 
-python3.6 statichtml-maker.py customize.html 
-python3.6 statichtml-maker.py exhibit.html 
-python3.6 statichtml-maker.py installation.html 
-python3.6 statichtml-maker.py news.html 
-python3.6 statichtml-maker.py pm-beginner.html 
-python3.6 tools/statichtml-maker.py pm-beginner.html 
-python3.6 tools/statichtml-maker.py pm-contact.html 
-python3.6 tools/statichtml-maker.py pm-search.html 
-python3.6 tools/statichtml-maker.py pm-event.html 
-python3.6 tools/statichtml-maker.py pm-faq.html 
-python3.6 tools/statichtml-maker.py pm-guide-top.html 
-python3.6 tools/statichtml-maker.py pm-info-top.html 
-python3.6 tools/statichtml-maker.py pm-law.html 
-python3.6 tools/statichtml-maker.py pm-products.html 
-python3.6 tools/statichtml-maker.py pm-purchase-flow.html 
-python3.6 tools/statichtml-maker.py pm-select.html 
-python3.6 tools/statichtml-maker.py privacy.html 
-python3.6 tools/statichtml-maker.py un-beginner.html 
-python3.6 tools/statichtml-maker.py un-contact.html 
-python3.6 tools/statichtml-maker.py un-event.html 
-python3.6 tools/statichtml-maker.py un-faq.html 
-python3.6 tools/statichtml-maker.py un-guide-top.html 
-python3.6 tools/statichtml-maker.py un-info-top.html 
-python3.6 tools/statichtml-maker.py un-law.html 
-python3.6 tools/statichtml-maker.py un-purchase-flow.html 
-python3.6 tools/statichtml-maker.py unitproducts-about.html 
 grep -l '"about.html"' ./*html | xargs sed -i.bak -e 's/\"about.html\"/\"\/srs\/_about.html\"/g'
 grep -l '"index.html"' ./*html | xargs sed -i.bak -e 's/\"index.html\"/\"/\"/g'
 grep -l '"index.html"' ./*html | xargs sed -i.bak -e 's/\"index.html\"/\"\/\"/g'
@@ -77,3 +37,6 @@ grep -l '"un-info-top.html"' ./*html | xargs sed -i.bak -e 's/\"un-info-top.html
 grep -l '"un-law.html"' ./*html | xargs sed -i.bak -e 's/\"un-law.html\"/\"\/srs\/_un-law.html\"/g'
 grep -l '"un-purchase-flow.html"' ./*html | xargs sed -i.bak -e 's/\"un-purchase-flow.html\"/\"\/srs\/_un-purchase-flow.html\"/g'
 grep -l '"unitproducts-about.html"' ./*html | xargs sed -i.bak -e 's/\"unitproducts-about.html\"/\"\/srs\/_unitproducts-about.html\"/g'
+grep -l '"unitproducts.html"' ./*html | xargs sed -i.bak -e 's/\"unitproducts.html\"/\"\/unitproducts\"/g'
+grep -l '"pmproducts.html"' ./*html | xargs sed -i.bak -e 's/\"pmproducts.html\"/\"\/pmproducts\"/g'
+grep -l '"btproducts.html"' ./*html | xargs sed -i.bak -e 's/\"btproducts.html\"/\"\/btproducts\"/g'
