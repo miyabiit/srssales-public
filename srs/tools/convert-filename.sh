@@ -40,3 +40,7 @@ grep -l '"unitproducts-about.html"' ./*html | xargs sed -i.bak -e 's/\"unitprodu
 grep -l '"unitproducts.html"' ./*html | xargs sed -i.bak -e 's/\"unitproducts.html\"/\"\/unitproducts\"/g'
 grep -l '"pmproducts.html"' ./*html | xargs sed -i.bak -e 's/\"pmproducts.html\"/\"\/pmproducts\"/g'
 grep -l '"btproducts.html"' ./*html | xargs sed -i.bak -e 's/\"btproducts.html\"/\"\/btproducts\"/g'
+#
+grep -l '"un-search.html"' ./*html | xargs sed -i.bak -e 's/\"un-search.html\"/\"\/un-search\"/g'
+grep -l '"pm-search.html"' ./*html | xargs sed -i.bak -e 's/\"pm-search.html\"/\"\/pm-search\"/g'
+grep -l '"bt-search.html"' ./*html | xargs sed -i.bak -e 's/\"bt-search.html\"/\"\/bt-search\"/g'
