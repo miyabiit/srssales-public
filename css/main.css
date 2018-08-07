@@ -134,8 +134,19 @@ table.faq td.question {font-weight:bold; width:38%}
 .lift_detail .txt{color:#5f4b8b} .lift_detail .box{background:#5f4b8b; color:#FFF} .lift_detail .border{border-color:#5f4b8b}
 .srsi_detail .txt{color:#4ecac9} .srsi_detail .box{background:#4ecac9; color:#FFF} .srsi_detail .border{border-color:#4ecac9}
 
-.product_detail_price{width:45%;align-self:flex-start; margin-right:5%}
-.product_detail_data{width:50%;align-self:flex-start}
+#product-image-box{width:48%; margin-right:2%; float:left}
+#product-image-box img{display:block; margin:0 auto}
+#product-data{width:48%; margin-left:2%; float:right}
+#product-image-caption{margin:10px; border:1px solid #F1F1F1; padding:10px}
+#produt-thumbnails div{float:left; width:20%; margin-bottom:10px}
+#produt-thumbnails div a{width:90%; display:block; border:1px solid #CCC; margin:0 auto}
+#produt-thumbnails div a.active{border-color:red}
+#produt-thumbnails div a img{vertical-align:bottom}
+
+.product_detail_price{width:48%; margin-right:2%; align-self:flex-start;}
+.product_detail_data{width:50%; align-self:flex-start;}
+#product-data .product_detail_price,
+#product-data .product_detail_data{width:100%}
 .product_detail_price_box, #product_detail_contact_box{padding:20px; border-width:10px; border-style:solid}
 .product_detail_price .title{display:block}
 .product_detail_price .price{display:block; float:right}
@@ -153,7 +164,7 @@ table.faq td.question {font-weight:bold; width:38%}
 #map{background-image:url(../images/map.gif); background-size:contain; background-repeat:no-repeat; background-position:center; height:500px; position:relative}
 .map_links{position:absolute;border:1px solid #CCC; width:auto; background:#FFF}
 a.area_name{padding:5px 10px; display:block; color:#FFF}
-.pref_box{padding:5px 10px; word-wrap:break-word} .pref_box a{margin-right:5px; text-decoration:underline; word-break:keep-all}
+.pref_box{padding:5px 10px; word-wrap:break-word} .pref_box a, .pref_box span{margin-right:5px; text-decoration:underline; word-break:keep-all}.pref_box span{color:#CCC; text-decoration:none}
 #touhoku{top:150px; right:0} #touhoku .area_name, #touhoku-list .area_name{background:#51bdbd} #touhoku-list-title{color:#51bdbd}
 #kanto{top:300px; right:0}#kanto .area_name, #kanto-list .area_name{background:#5eb14e} #kanto-list-title{color:#5eb14e}
 #hokuriku{top:90px; left:330px; width:auto}#hokuriku .area_name, #hokuriku-list .area_name{background:#5b4884} #hokuriku-list-title{color:#5b4884}
@@ -359,6 +370,9 @@ dl#law{padding:10px}
 #product-detail .content{padding:10px}
 #product-detail .content.flex{display:block}
 .product_detail_price_box, #product_detail_contact_box {padding:10px}
+#product-image-box,
+#product-data{width:100%; float:none; margin:0}
+#produt-thumbnails div{width:33.333%}
 .product_detail_price, .product_detail_data, .product_detail_data dl{width:100%; margin:0}
 .product_detail_data dd{width:60%;margin-right:0}
 #icons{float:none}
