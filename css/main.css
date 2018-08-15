@@ -216,8 +216,8 @@ span.more{margin-left:10px}
 span.more a{color:#FFF;padding:5px 10px; display:inline-block; vertical-align:bottom}
 span.more a:hover{background:rgba(0,0,0,.3)}
 .pagination{margin-left:auto}
-.pagination a{background:#00626e; color:#FFF; padding:10px 15px}
-.pagination a.active, .pagination a:hover{background:#003333}
+.pagination a,.pagination span{background:#00626e; color:#FFF; padding:10px 15px}
+.pagination a.active,.pagination .current,.pagination a:hover{background:#003333}
 .pagination a i{display:unset}
 .searched-product{padding:10px; border:1px solid #CCC; background:#FFF; margin:10px 0}
 .searched-product p{padding:0 0 5px; border-bottom: 2px dotted; margin-bottom:15px}
@@ -406,7 +406,7 @@ span.more{display:block; margin:5px 10px}
 span.more a{display:block}
 .pagination{margin:0 auto; text-align:center}
 .pagination a{display:none}
-.pagination a.prev,.pagination a.active,.pagination a.next{display:inline-block}
+.pagination a.prev,.pagination a.active,.pagination .current,.pagination a.next{display:inline-block}
 .search-results-pagination{margin:20px 0 0 0}
 .product_name{display:block}
 .product_data{margin:0}
