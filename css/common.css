@@ -37,8 +37,8 @@ body {min-width:940px}
 .mgn_btm20{margin-bottom:20px}.mgn_top20{margin-top:20px} .pdg_btm20{padding-bottom:20px}.pdg_top20{padding-top:20px}
 .mgn_btm30{margin-bottom:30px}.mgn_top30{margin-top:30px} .pdg_btm30{padding-bottom:30px}.pdg_top30{padding-top:30px}
 .mgn_btm40{margin-bottom:40px}.mgn_top40{margin-top:40px} .pdg_btm40{padding-bottom:40px}.pdg_top40{padding-top:40px}
-
-.w50{width:50%} .w33, .w33_100{width:33.3333%} .w25, .w25_100{width:25%} .w75{width:75%}
+.tx90{font-size:.9em}
+.w100{width:100%} .w50{width:50%} .w33, .w33_100{width:33.3333%} .w25, .w25_100{width:25%} .w75{width:75%}
 .w75, .w50, .w33, .w33_100, .w25, .w25_100{margin:10px 0}
 
 figure {margin:0 10px; text-align:center} figcaption{text-align:left}
@@ -56,8 +56,8 @@ header {position:relative; z-index:1000}
 .product_list_sign{margin-right:5px; font-size:12px; padding:2px; vertical-align:middle; min-width:30px; text-align:center; float:right; display:inline-block}
 .unit {background:#60ba4e} .unit_t{color:#60ba4e} .unit_s{background:#b3d465}
 .atch {background:#f5b32b} .atch_t{color:#f5b32b} .atch_s{background:#cc9900}
-.lift {background:#5f4b8b} .lift_t{color:#5f4b8b} .lift_s{background:#9966cc}
-.srsi {background:#4ecac9} .srsi_t{color:#4ecac9}
+.lift {background:#4ecac9} .lift_t{color:#4ecac9} .lift_s{background:#3d8d8c}
+.srsi {background:#018ea0} .srsi_t{color:#018ea0}
 .green{background:#60ba4e; color:#FFF}
 .gray{background:#666; color:#FFF}
 .orange{background:#ef510b; color:#FFF}
@@ -102,7 +102,7 @@ header {position:relative; z-index:1000}
 #guide h2{font-size:30px; padding-bottom:10px}
 #unit-guide h3{color:#60ba4e} #unit-guide a{background:#60ba4e}
 #atch-guide h3{color:#f5b32b} #atch-guide a{background:#f5b32b}
-#lift-guide h3{color:#5f4b8b} #lift-guide a{background:#5f4b8b}
+#lift-guide h3{color:#4ecac9} #lift-guide a{background:#4ecac9}
 .guide{width:33.333%; float:left}
 .guidance{background:#fff; margin:10px;padding:20px; font-size:20px}
 .guide_title{text-align:center; margin:10px auto 20px}

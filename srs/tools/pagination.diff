@@ -1,0 +1,7 @@
+-.pagination a{background:#00626e; color:#FFF; padding:10px 15px}
+-.pagination a.active, .pagination a:hover{background:#003333}
++.pagination a,.pagination span{background:#00626e; color:#FFF; padding:10px 15px}
++.pagination a.active,.pagination .current,.pagination a:hover{background:#003333}
+
+-.pagination a.prev,.pagination a.active,.pagination a.next{display:inline-block}
++.pagination a.prev,.pagination a.active,.pagination .current,.pagination a.next{display:inline-block}

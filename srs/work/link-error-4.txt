@@ -1,0 +1,9 @@
+./_about.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
+./_commerce.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
+./_contact.html:<li class="text_c"><a href="/contact" class="disp_f active">お問い合わせ</a></li>
+./_contact.html:<a href="/contact" itemprop="url">
+./_corporate.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
+./_feature.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
+./_office.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
+./_privacy.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
+./_sitemap.html:<li class="text_c"><a href="/contact" class="disp_f">お問い合わせ</a></li>
