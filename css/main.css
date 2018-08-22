@@ -217,8 +217,8 @@ span.more{margin-left:10px}
 span.more a{color:#FFF;padding:5px 10px; display:inline-block; vertical-align:bottom}
 span.more a:hover{background:rgba(0,0,0,.3)}
 .pagination{margin-left:auto}
-.pagination a, .pagination span{background:#00626e; color:#FFF; padding:10px 15px}
-.pagination a.active,.pagination .current, .pagination a:hover{background:#003333}
+.pagination a,.pagination span{background:#00626e; color:#FFF; padding:10px 15px}
+.pagination a.active,.pagination .current,.pagination a:hover{background:#003333}
 .pagination a i{display:unset}
 .searched-product{padding:10px; border:1px solid #CCC; background:#FFF; margin:10px 0}
 .searched-product p{padding:0 0 5px; border-bottom: 2px dotted; margin-bottom:15px}
@@ -314,7 +314,7 @@ dl#law{padding:10px}
 
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
 /*--INDEX--*/
 #key-visual{min-height:auto}
 #key-visual-content h1{font-size:24px}

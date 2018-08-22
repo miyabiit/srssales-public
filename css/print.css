@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+zoom: 62%; background:#FFF
+}
+#head,#sub-menu,#breadcrumb,#produt-thumbnails,#product-panorama,#product-movie,#go-print,#footer,
+#icons{display:none}
+
+#print-header{display:block;background:#00626e; color:#FFF; padding:10px; text-align:left}
+#print-header-company-info{font-size:10px}
+#print-header-company{line-height:1.5em; clear:both}
+#print-header-company-name{font-size:24px;display:block;line-height:1.5em}
+#print-header-company img{margin-right:10px;float:left}
+
+#product-detail .content {padding:0}

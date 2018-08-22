@@ -47,8 +47,9 @@ figure {margin:0 10px; text-align:center} figcaption{text-align:left}
 .tel_info{margin-left: auto; order: 2;}
 .tel{font-size:32px}
 .freedial{height:24px; margin:0 5px}
-
 header {position:relative; z-index:1000}
+
+#print-header{display:none}
 
 .disp_f{display:block; width:100%; height:100%; font-family:'Century Gothic', 'Questrial', sans-serif; font-weight:bold; letter-spacing:0.05em;}
 .strong_f{font-family:'Century Gothic', 'Questrial', sans-serif; font-weight:bold; letter-spacing:0.05em;}
