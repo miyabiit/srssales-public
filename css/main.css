@@ -295,6 +295,8 @@ dl#law{padding:10px}
 .cell input, .cell textarea{width:100%; font-size:16px; padding:5px}
 .cell textarea{height:100px}
 .cell input.short{width:auto}
+
+.sitemap li{width:calc(33.3333% - 2em);float:left}
 @media (min-width: 701px) {
 /*--INDEX--*/
 #search-box .content{padding:20px 0}
@@ -429,6 +431,8 @@ span.more a{display:block}
 #instration-flow dt{width:100%; margin-right:0%}
 #instration-flow dd{width:100%; line-height:1.5em}
 
+
+.sitemap li{width:100%;float:none}
 }
 
 @media (max-width: 414px) {
