@@ -1,0 +1,110 @@
+diff -r SRS190412/about.html SRS180920/about.html
+88c88
+< <p id="contact-text">「ユニットハウス」「アタッチメント」「高所作業車」等の販売に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+---
+> <p id="contact-text">「中古ユニットハウス」「アタッチメント」「高所作業車」等に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+diff -r SRS190412/bt-event.html SRS180920/bt-event.html
+48,49c48,49
+< <li class="text_c"><a href="bt-guide-top.html" class="disp_f">ご利用ガイド</a></li>
+< <li class="text_c"><a href="bt-info-top.html" class="disp_f active">ご案内</a></li>
+---
+> <li class="text_c"><a href="bt-guide-top.html" class="disp_f active">ご利用ガイド</a></li>
+> <li class="text_c"><a href="bt-info-top.html" class="disp_f">ご案内</a></li>
+Only in SRS190412: bt-purchase-service.html
+diff -r SRS190412/btproducts.html SRS180920/btproducts.html
+134,137c134,135
+< <div class="key-visual-text">
+< <h1>高所作業車と様々なアイテムを取り扱っております。</h1>
+< <p>豊富なラインナップをご覧ください。</p>
+< </div>
+---
+> <h1 class="disp_f text_c shadow">高所作業車と様々なアイテムを取り扱っております。</h1>
+> <p class="disp_f text_c shadow">豊富なラインナップをご覧ください。</p>
+303,304c301,302
+< <li><a href="bt-event.html" class="info_banner" id="info_banner_1"><span class="shadow disp_f text_c">イベント情報</span></a></li>
+< <li><a href="bt-purchase-service.html" class="info_banner" id="info_banner_2"><span class="shadow disp_f text_c">買い取り情報</span></a></li>
+---
+> <li><a href="" class="info_banner" id="info_banner_1"><span class="shadow disp_f text_c">イベント情報</span></a></li>
+> <li><a href="" class="info_banner" id="info_banner_2"><span class="shadow disp_f text_c">買い取り情報</span></a></li>
+diff -r SRS190412/contact.html SRS180920/contact.html
+150c150
+< <p id="contact-text">「ユニットハウス」「アタッチメント」「高所作業車」等の販売に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+---
+> <p id="contact-text">「中古ユニットハウス」「アタッチメント」「高所作業車」等に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+diff -r SRS190412/corporate.html SRS180920/corporate.html
+96c96
+< <div class="cell">電話番号</div><div class="cell">03-3517-3360(代表)<br>03-3517-3367(ブルーテック事業部)<br>03-3517-3355(プロマックス事業部)<br>042-760-6250(テクニカルサポート事業部)</div>
+---
+> <div class="cell">電話番号</div><div class="cell">03-3517-3360(代表)<br>03-3517-3351(ブルーテック事業部)<br>03-3517-3355(プロマックス事業部)</div>
+101,102c101,102
+< <a href="http://www.srscorp.co.jp/bluetec/" target="_blank"><img src="images/btlogo.png"></a>ブルーテック事業部：高所作業車、 建築用機械器具のレンタル<br>
+< <a href="http://www.srscorp.co.jp/promax/" target="_blank"><img src="images/pmlogo.png"></a>プロマックス事業部：油圧掘削機、 アタッチメント、各種ユニットハウス、トイレ、 事務什器・備品のレンタルおよび販売<br>テクニカルサポート事業部：特殊大型機のレンタル及び土木作業系の教習センターを運営
+---
+> <a href="http://www.srscorp.co.jp/bluetec/" target="_blank"><img src="images/btlogo.png"></a>ブルーテック事業部：高所作業車、 建築用機械器具のレンタル プロマックス事業部<br>
+> <a href="http://www.srscorp.co.jp/promax/" target="_blank"><img src="images/pmlogo.png"></a>プロマックス事業部：油圧掘削機、 アタッチメント、各種ユニットハウス、トイレ、 事務什器・備品のレンタルおよび販売
+130c130
+< 三菱UFJ銀行　大伝馬町支店<br>
+---
+> 三菱東京UFJ銀行　大伝馬町支店<br>
+148d147
+< 山形県公安委員会　　<span>第241100000695号</span><br>
+149a149
+> 新潟県公安委員会　　<span>第461120001131号</span><br>
+152d151
+< 栃木県公安委員会　　<span>第411050000946号</span><br>
+156d154
+< 新潟県公安委員会　　<span>第461120001131号</span><br>
+160a159
+> 奈良県公安委員会　　<span>第641030001032号</span><br>
+163d161
+< 奈良県公安委員会　　<span>第641030001032号</span><br>
+197c195
+< <p id="contact-text">「ユニットハウス」「アタッチメント」「高所作業車」等の販売に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+---
+> <p id="contact-text">「中古ユニットハウス」「アタッチメント」「高所作業車」等に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+Only in SRS190412: debug.log
+Only in SRS190412: feature.html
+diff -r SRS190412/index.html SRS180920/index.html
+55c55
+< <h2 class="strong_f unit_t">ユニットハウス</h2>
+---
+> <h2 class="strong_f unit_t">ユニット</h2>
+279c279
+< <p id="contact-text">「ユニットハウス」「アタッチメント」「高所作業車」等の販売に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+---
+> <p id="contact-text">「中古ユニットハウス」「アタッチメント」「高所作業車」等に関するご質問・ご相談は最寄りの営業所までお問い合わせください。</p>
+Only in SRS190412: pm-purchase-service.html
+diff -r SRS190412/pmproducts.html SRS180920/pmproducts.html
+164,167c164,165
+< <div class="key-visual-text">
+< <h1>アタッチメント</h1>
+< <p>アタッチメントの購入をお考えの皆様へ<br>豊富なラインナップをご覧ください。</p>
+< </div>
+---
+> <h1 class="disp_f text_c shadow">アタッチメント</h1>
+> <p class="disp_f text_c shadow">アタッチメントの購入をお考えの皆様へ<br>豊富なラインナップをご覧ください。</p>
+333,334c331,332
+< <li><a href="pm-event.html" class="info_banner" id="info_banner_1"><span class="shadow disp_f text_c">イベント情報</span></a></li>
+< <li><a href="pm-purchase-service.html" class="info_banner" id="info_banner_2"><span class="shadow disp_f text_c">買い取り情報</span></a></li>
+---
+> <li><a href="" class="info_banner" id="info_banner_1"><span class="shadow disp_f text_c">イベント情報</span></a></li>
+> <li><a href="" class="info_banner" id="info_banner_2"><span class="shadow disp_f text_c">買い取り情報</span></a></li>
+Only in SRS190412: un-purchase-service.html
+Only in SRS190412: un-select.html
+diff -r SRS190412/unitproducts.html SRS180920/unitproducts.html
+165,168c165,166
+< <div class="key-visual-text">
+< <h1>ユニットハウス</h1>
+< <p>ユニットハウスの購入をお考えの皆様へ<br>信頼と実績のエスアールエスをご検討ください。</p>
+< </div>
+---
+> <h1 class="disp_f text_c shadow">ユニットハウス</h1>
+> <p class="disp_f text_c shadow">ユニットハウスの購入をお考えの皆様へ<br>信頼と実績のエスアールエスをご検討ください。</p>
+334,336c332,334
+< <li><a href="un-event.html" class="info_banner" id="info_banner_1"><span class="shadow disp_f text_c">イベント情報</span></a></li>
+< <li><a href="un-purchase-service.html" class="info_banner" id="info_banner_2"><span class="shadow disp_f text_c">買い取り情報</span></a></li>
+< <li><a href="exhibit.html" class="info_banner" id="info_banner_3"><span class="shadow disp_f text_c">展示販売協力会社募集</span></a></li>
+---
+> <li><a href="" class="info_banner" id="info_banner_1"><span class="shadow disp_f text_c">イベント情報</span></a></li>
+> <li><a href="" class="info_banner" id="info_banner_2"><span class="shadow disp_f text_c">買い取り情報</span></a></li>
+> <li><a href="" class="info_banner" id="info_banner_3"><span class="shadow disp_f text_c">展示販売協力会社募集</span></a></li>

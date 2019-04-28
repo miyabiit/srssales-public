@@ -53,5 +53,5 @@ grep -l '"/srs/_un-contact.html"' ./*html | xargs sed -i.bak -e 's/\"\/srs\/_un-
 grep -l '"/srs/_pm-contact.html"' ./*html | xargs sed -i.bak -e 's/\"\/srs\/_pm-contact.html\"/\"\/pm-contact\"/g'
 grep -l '"/srs/_bt-contact.html"' ./*html | xargs sed -i.bak -e 's/\"\/srs\/_bt-contact.html\"/\"\/bt-contact\"/g'
 #
-grep -l '高所作業車 他' ./*html | xargs sed -i.bak -e 's/高所作業車 他/高所作業車・仮設機材/g'
-grep -l '<br><a href="/srs/_commerce.html">特定商取引に関する表示</a> |' ./*html | xargs sed -i.bak -e 's/<br><a href=\"\/srs\/_commerce.html\">特定商取引に関する表示<\/a> |//g'
+#grep -l '高所作業車 他' ./*html | xargs sed -i.bak -e 's/高所作業車 他/高所作業車・仮設機材/g'
+#grep -l '<br><a href="/srs/_commerce.html">特定商取引に関する表示</a> |' ./*html | xargs sed -i.bak -e 's/<br><a href=\"\/srs\/_commerce.html\">特定商取引に関する表示<\/a> |//g'

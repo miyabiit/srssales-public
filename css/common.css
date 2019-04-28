@@ -30,7 +30,7 @@ body {min-width:940px}
 .big { font-size:120%; }
 .sml { font-size:88%; }
 .xs { font-size:14px}
-.num{font-family: 'BenchNine', sans-serif; line-height:1}
+.num{font-family:'Verdana',sans-serif; line-height:1}
 .btn, a.btn{border:0; color:#FFF; font-size:22px; padding:10px; text-align:center}.btn:hover{cursor:pointer}
 .btn.btn_s{font-size:16px; padding:5px 10px}
 .pad_0{padding:0}
@@ -45,8 +45,8 @@ figure {margin:0 10px; text-align:center} figcaption{text-align:left}
 
 #head_info{background:#00626e;padding:10px 0;color:#FFF}
 .tel_info{margin-left: auto; order: 2;}
-.tel{font-size:32px}
-.freedial{height:24px; margin:0 5px}
+.tel{font-size:24px}
+.freedial{height:24px; margin:0 5px;vertical-align: bottom;}
 header {position:relative; z-index:1000}
 
 #print-header{display:none}
@@ -65,7 +65,7 @@ header {position:relative; z-index:1000}
 .blue{background:#0b76ef; color:#FFF}
 .red{background:red; color:#FFF}.red_t{color:red}
 .srsd{background:#00626e; color:#FFF}
-.shadow{text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1)}
+.shadow{text-shadow: 0px 4px 3px rgba(255,255,255,0.4),0px 8px 13px rgba(255,255,255,0.1),0px 18px 23px rgba(255,255,255,0.1)}
 .white_bg{background:#FFF}
 
 
@@ -97,8 +97,8 @@ header {position:relative; z-index:1000}
 .info_banner{background-position:50%; background-size:cover; display:block; margin:0 10px; padding:100px 0; opacity:1}
 .info_banner span{color:#FFF; font-size:24px; background:rgba(0,0,0,.3)}
 #info_banner_1{background-image:url(../images/info1.jpg)}
-#info_banner_2{background-image:url(../images/info2.png)}
-#info_banner_3{background-image:url(../images/info3.png)}
+#info_banner_2{background-image:url(../images/info2.jpg)}
+#info_banner_3{background-image:url(../images/info3.jpg)}
 .info_banner:hover{text-decoration:none; opacity:.9}
 #guide h2{font-size:30px; padding-bottom:10px}
 #unit-guide h3{color:#60ba4e} #unit-guide a{background:#60ba4e}
@@ -110,6 +110,7 @@ header {position:relative; z-index:1000}
 .guidance p{line-height:1.5em; font-size:14px; height:80px}
 .guidance a{text-align:center; display:block; margin:20px auto; width:75%; padding:10px 0; color:#FFF}
 #contact h2{font-size:30px; padding-bottom:10px}
+#error-box{background:#FFF; padding:40px;line-height:2;text-align:center}
 #contact-box{background:#FFF; padding:40px;line-height:1.25}
 #contact-text{line-height:1.75em}
 #contact-tel{color:#00626e}

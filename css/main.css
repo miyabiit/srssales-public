@@ -3,8 +3,19 @@
 
 
 /*--INDEX--*/
-#index-key-visual{background-size:cover;background-position:center;background-image:url(../images/visual-unit.jpg); margin-top:20px; color:white}
+#index-key-visual{background-size:cover;background-position:center;background-image:url(../images/visual-top.jpg); margin-top:20px; color:#018ea0;}
 #index-key-visual .content{position: relative; min-height:350px}
+
+#index-key-visual .content .shadow{text-shadow:#FFF 2px 0px 2px, #FFF -2px 0px 2px,
+    #FFF 0px -2px 2px, #FFF -2px 0px 2px,
+    #FFF 2px 2px 2px, #FFF -2px 2px 2px,
+    #FFF 2px -2px 2px, #FFF -2px -2px 2px,
+    #FFF 1px 2px 2px, #FFF -1px 2px 2px,
+    #FFF 1px -2px 2px, #FFF -1px -2px 2px,
+    #FFF 2px 1px 2px, #FFF -2px 1px 2px,
+    #FFF 2px -1px 2px, #FFF -2px -1px 2px,
+    #FFF 1px 1px 2px, #FFF -1px 1px 2px,
+    #FFF 1px -1px 2px, #FFF -1px -1px 2px;}
 #key-visual-content{position:absolute;top:50%;transform:translateY(-50%);left:50%;margin-left:-50%;width:100%;text-align:center; width:100%}
 #key-visual-content h1{font-size:36px}
 #key-visual-content p{padding-top:20px; font-size:18px}
@@ -34,11 +45,17 @@
 #search-hits{display:block; text-align:center}
 #search-hits span{font-size:36px; color:red}
 
-#key-visual{background-size:cover;background-position:center;min-height:530px}
-#key-visual.unit{background-image:url(../images/visual-unit.jpg)}
-#key-visual.atch{background-image:url(../images/visual-atch.jpg)}
-#key-visual.lift{background-image:url(../images/visual-lift.jpg)}
+#key-visual{min-height:530px;position:relative}
+#key-visual:before {background-size:cover;background-position:center;top:0;left:50%;width:50%;height:100%;content:'';position: absolute}
+#key-visual.unit{background:#528040}
+#key-visual.atch{background:#a57e34}
+#key-visual.lift{background:#036}
+#key-visual.unit:before{background-image:url(../images/visual-unit.jpg)}
+#key-visual.atch:before{background-image:url(../images/visual-atch.jpg)}
+#key-visual.lift:before{background-image:url(../images/visual-lift.jpg)}
 #key-visual h1, #key-visual p{color:#FFF}
+
+.key-visual-text{width:50%; padding:0 20px 0 0}
 
 #recommend h2{font-size:30px; padding-bottom:10px; color:#FFF}
 
@@ -55,7 +72,7 @@
 .product_list_info_sub{width:40%}
 .product_list_info_data{width:60%}
 .product_list_info_unit{width:20%}
-.product_list_info_price{width:80%;font-size: 32px; color:red; line-height:1.5em}
+.product_list_info_price{width:80%;font-size:24px; color:red; line-height:1.5em}
 .product_list_info_price .yen{font-size:12px; color:#464646}
 
 /*--EVENTS--*/
@@ -156,7 +173,7 @@ table.faq td.question {font-weight:bold; width:38%}
 .product_detail_data dt{display:block;width:35%;clear:left;float:left;text-align:center; margin-right:5%; font-size:0.8em; font-weight:bold; padding:5px 0; margin-bottom:10px}
 .product_detail_data dd{display:block;width:55%;float:left; line-height:125%; padding:5px 0; margin-right:5%; margin-bottom:10px}
 .product_detail_data dd.w100{width:100%}
-.product_detail_data dd.tel{padding:0}.product_detail_data dd.tel a{color:red}
+.product_detail_data dd.tel{padding:0;margin-top:-5px}.product_detail_data dd.tel a{color:red}
 #product-detail h3{margin:0;border-bottom-width:2px;border-bottom-style:dotted;padding-bottom: 5px}
 .youtube{text-align:center;margin-top:20px}
 .panorama{margin-top:20px}
@@ -168,8 +185,8 @@ a.area_name{padding:5px 10px; display:block; color:#FFF}
 .pref_box{padding:5px 10px; word-wrap:break-word} .pref_box a, .pref_box span{margin-right:5px; text-decoration:underline; word-break:keep-all}.pref_box span{color:#CCC; text-decoration:none}
 #touhoku{top:150px; right:0} #touhoku .area_name, #touhoku-list .area_name{background:#51bdbd} #touhoku-list-title{color:#51bdbd}
 #kanto{top:300px; right:0}#kanto .area_name, #kanto-list .area_name{background:#5eb14e} #kanto-list-title{color:#5eb14e}
-#hokuriku{top:90px; left:330px; width:auto}#hokuriku .area_name, #hokuriku-list .area_name{background:#5b4884} #hokuriku-list-title{color:#5b4884}
-#tokai{bottom:20px; right:100px; width:auto}#tokai .area_name, #tokai-list .area_name{background:#b9c048} #tokai-list-title{color:#b9c048}
+#hokuriku{top:90px; left:290px; width:auto}#hokuriku .area_name, #hokuriku-list .area_name{background:#5b4884} #hokuriku-list-title{color:#5b4884}
+#tokai{bottom:20px; right:180px; width:auto}#tokai .area_name, #tokai-list .area_name{background:#b9c048} #tokai-list-title{color:#b9c048}
 #kinki{top:165px; left:250px;}#kinki .area_name, #kinki-list .area_name{background:#ebad32} #kinki-list-title{color:#ebad32}
 #chugoku{bottom:0; left:200px; width:auto}#chugoku .area_name, #chugoku-list .area_name{background:#ec8941} #chugoku-list-title{color:#ec8941}
 #kyusyu{bottom:120px; left:0; width:auto}#kyusyu .area_name,#kyusyu-list .area_name{background:#dc776f} #kyusyu-list-title{color:#dc776f}
@@ -240,7 +257,8 @@ span.more a:hover{background:rgba(0,0,0,.3)}
 .product_data_lift p, .product_data_lift .searched_product_data{border-color:#4ecac9}
 .searched-product h3{margin:0 10px 15px; border-bottom:2px dotted; padding-bottom:5px}
 .product_contact{padding:10px}
-.contact_info span{font-size:1.4em; vertical-align:middle}
+.contact_info span{font-size:1em; vertical-align:middle}
+.contact_info span.num{font-size:2em}
 .contact_info i{margin:0 10px 0 20px; font-size:1.5em; vertical-align:middle; color:#00626e}
 .product_see_more{margin-left:auto}.product_see_more a{color:#FFF; padding:5px 15px; display:block; text-align:center}.product_see_more a:hover{background:rgba(0,0,0,.3)}
 /**-------------**/
@@ -301,12 +319,11 @@ dl#law{padding:10px}
 /*--INDEX--*/
 #search-box .content{padding:20px 0}
 
-
 /*--PRODUCTS--*/
 .search-selection, .search-button{display: block; width: 50%; margin: 0 auto;}
 .search-selection select{display:inline-block;width:50%}
 #key-visual .content{padding:20px 0}
-#key-visual h1{font-size:60px; margin-top:100px}
+#key-visual h1{font-size:36px; margin-top:100px; margin-bottom:10px}
 #key-visual p{font-size:18px; margin-bottom:100px}
 #recommend .content{padding:20px 0}
 
@@ -325,6 +342,12 @@ dl#law{padding:10px}
 #key-visual-content br{display:none}
 
 
+#key-visual:before {background-size:cover;background-position:center;top:0;left:0;width:100%;height:100%;content:'';position: absolute}
+.key-visual-text{width:100%; padding:0; text-align:center}
+
+#key-visual.unit .key-visual-text{background:rgba(82,128,64,.7)}
+#key-visual.atch .key-visual-text{background:rgba(165,126,52,.7)}
+#key-visual.lift .key-visual-text{background:rgba(0,51,102,.7)}
 
 /*--PRODUCTS / EVENTS--*/
 #search-box .content, #event .content{padding:10px}
@@ -336,8 +359,8 @@ dl#law{padding:10px}
 .search-button{margin-top:10px}
 #key-visual{background-position:bottom; padding:10px}
 #key-visual .content{padding:0}
-#key-visual h1{font-size:36px; margin-top:50px}
-#key-visual p{font-size:18px; padding-bottom:50px}
+#key-visual h1{font-size:24px; padding-top:10px; margin-top:50px; margin-bottom:10px}
+#key-visual p{font-size:16px; padding-bottom:10px; margin-bottom:50px}
 .products{width:50%}
 
 /*--OFFICE--*/
@@ -379,7 +402,7 @@ dl#law{padding:10px}
 .product_detail_price, .product_detail_data, .product_detail_data dl{width:100%; margin:0}
 .product_detail_data dd{width:60%;margin-right:0}
 #icons{float:none}
-.product_detail_data dd.tel a{font-size:30px}
+.product_detail_data dd.tel a{font-size:24px}
 .youtube {position:relative;padding-bottom:56.25%;height:0;overflow:hidden}
 .youtube iframe{position: absolute;top:0;left:0;width:100%;height:100%}
 
@@ -417,8 +440,8 @@ span.more a{display:block}
 .product_detail dl{width:100%}
 .searched_product_data.flex, .product_detail.flex, .product_contact.flex{display:block}
 .product_image, .product_data{width:100%}
-.contact_info span.contact{display:block}
-.contact_info i{vertical-align:bottom; margin:0 5px}
+.contact_info span.contact{display:block;font-size:1em}
+.contact_info i{vertical-align:sub; margin:-0 5px}
 .product_see_more{margin-top:10px}
 
 /*--PURCHASE FLOW--*/
