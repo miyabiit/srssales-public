@@ -72,8 +72,8 @@
 .product_list_info_sub{width:40%}
 .product_list_info_data{width:60%}
 .product_list_info_unit{width:20%}
-.product_list_info_price{width:80%;font-size:24px; color:red; line-height:1.5em}
-.product_list_info_price .yen{font-size:12px; color:#464646}
+.product_list_info_price{width:80%;font-size:17px; color:red; line-height:1.5em}
+.product_list_info_price .yen{font-size:12px; color:#464646; padding-left:2px}
 
 /*--EVENTS--*/
 #event{padding-bottom: 30px; margin: 20px 0 10px; box-shadow: 0 3px 10px #dedede;}
@@ -167,7 +167,7 @@ table.faq td.question {font-weight:bold; width:38%}
 .product_detail_price_box, #product_detail_contact_box{padding:20px; border-width:10px; border-style:solid}
 .product_detail_price .title{display:block}
 .product_detail_price .price{display:block; float:right}
-.product_detail_price .num{font-size:48px;color:red;margin-right:10px}
+.product_detail_price .num{font-size:38px;color:red;margin-right:10px}
 .product_detail_price .misc{display:block;padding: 10px}
 .product_detail_data dl{width:100%; margin:0 5px;align-self:flex-start}
 .product_detail_data dt{display:block;width:35%;clear:left;float:left;text-align:center; margin-right:5%; font-size:0.8em; font-weight:bold; padding:5px 0; margin-bottom:10px}
@@ -240,12 +240,12 @@ span.more a:hover{background:rgba(0,0,0,.3)}
 .searched-product{padding:10px; border:1px solid #CCC; background:#FFF; margin:10px 0}
 .searched-product p{padding:0 0 5px; border-bottom: 2px dotted; margin-bottom:15px}
 .searched_product_data{margin:0 0 10px; border-bottom:2px dotted; padding-bottom:5px}
-.product_image{width:40%; align-self:flex-start}
-.product_data{width:60%; margin-left:10px}
+.product_image{width:30%; align-self:flex-start}
+.product_data{width:70%; margin-left:10px}
 .product_detail dl{width:50%; margin:0 5px;align-self:flex-start}
 .product_detail dt{display:block;width:35%;clear:left;float:left;text-align:center; margin-right:5%; font-size:0.8em; font-weight:bold; padding:5px 0; margin-bottom:10px}
 .product_detail dd{display:block;width:60%;float:left; line-height:125%; padding:5px 0; margin-bottom:10px}
-.product_data_content span.num {font-size:36px;color:red;margin-right:5px}
+.product_data_content span.num {font-size:17px;font-weight:bold;color:red;margin-right:5px}
 .product_data_unit .product_data_title{background:#60ba4e; color:#FFF}
 .product_data_atch .product_data_title{background:#f5b32b; color:#FFF}
 .product_data_lift .product_data_title{background:#4ecac9; color:#FFF}
@@ -341,7 +341,6 @@ dl#law{padding:10px}
 #key-visual-content span{display:block}
 #key-visual-content br{display:none}
 
-
 #key-visual:before {background-size:cover;background-position:center;top:0;left:0;width:100%;height:100%;content:'';position: absolute}
 .key-visual-text{width:100%; padding:0; text-align:center}
 
@@ -349,6 +348,8 @@ dl#law{padding:10px}
 #key-visual.atch .key-visual-text{background:rgba(165,126,52,.7)}
 #key-visual.lift .key-visual-text{background:rgba(0,51,102,.7)}
 
+
+.product_list_info_price{font-size:24px}
 /*--PRODUCTS / EVENTS--*/
 #search-box .content, #event .content{padding:10px}
 .pulldown_menu{width:100%; float:none; margin:0}
