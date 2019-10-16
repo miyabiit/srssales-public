@@ -328,6 +328,11 @@ dl#law{padding:10px}
 .cell input.short{width:auto}
 
 .sitemap li{width:calc(33.3333% - 2em);float:left}
+
+/*--INDEX BoTTOM BANNER--*/
+#index-banner{text-align:center;margin-top:20px}
+#index-banner img{height:80px}
+
 @media (min-width: 701px) {
 /*--INDEX--*/
 #search-box .content{padding:20px 0}
